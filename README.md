@@ -1,2 +1,2 @@
 # testing
-This Repo is primarily focused on testing and its scenarios.
+Python-based mobile automation using Appium. 
