@@ -1,0 +1,256 @@
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::: JIRA ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Jira is a project management tool
+-   Track project work status
+-   Track bugs and issues.
+-   Team work and time tracking and etc.
+
+
+Jira Used by
+-   Software developers
+-   QA
+-   Business developers
+-   Product Owner   
+-   Team manager and management
+
+
+Need of Jira
+-   one stop solution for project management
+-   project work and bug can manage easily
+-   multiple project can handle
+-   charts and graps will help project progress.
+-   No Need to make excel or other document.
+
+
+History
+-   Developed by Atlassian company
+-   git and confluence is also created by Atlassian.
+
+
+Jira Products
+-   Jira Work management
+-   Jira Software
+-   Jira service management
+
+
+Topics to be covered
+-   Make a project on Jira
+-   Practical Used
+-   How to make:    Epic, story, bug, task
+-   Project setting
+-   Project dashboard
+-   Sprint
+-   Agile
+-   Scrum
+-   Search Items (bugs, story, etc)
+-   Sprint grooming
+
+
+Jira Instance
+-   Cloud Instance (For less people, small organization/startups)
+-   Server Instance (For more people, large organization)
+
+
+Server Instance
+-   Setup jira on your hosting server.
+-   Example jira.yourhosting.company
+-   Need to manage and update time to time.
+-   If you have big project or big team, need to use the server instamce
+
+
+Cloud Instance
+-   Setup Jira or Atlassian.com
+-   No Server cost
+-   No Security code.
+-   No need to update time to time.
+-   Best for learning > cretae accoutn and setup project 
+
+
+Project Menu and Option
+-   Add More team member
+-   Roadmap/Timeline
+-   Backlogs
+-   Board
+-   Code Option
+-   Project pages.
+-   Add shortcuts
+-   Project Setting
+
+
+Account Setup
+-   Create Free Account
+-   Choose Site
+-   Choose Template Like Scrum
+-   Make project 
+
+
+How Jira Works
+
+                            ----------------Users------------------
+                            Plan Sprint >> Run Sprint >> End Sprint
+                                               ^
+    Project Configuration >> Plan a version >> | >> Release Version >> Wrap Up Project
+    -----------------------------------------Managers---------------------------------
+
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::: Agile Methodology ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Agile = Fast or quickly
+Methodology = Process by which developers design, implement and test new software projects.
+
+Agile methodology = It is a way to manage a project by breaking it up into several phases.
+
+Step Example: 
+    -   Make a plan for 15 Days
+    -   Development for Plan
+    -   Test Project according to Plan
+    -   Make feedback from the customer
+    -   Start next plan.
+
+Agile Frameworks
+-   Scrum
+-   Kanban
+-   Extreme Programming
+
+
+Principles
+-   Satisfy the customer
+-   Welcome changing requirements
+-   Deliver Working software frequently
+-   Business work with developers daily
+-   Build projects around motivated individuals   
+-   F2F conversation
+-   Working Software matters
+-   Constant Pace
+-   Highquality Code is faster
+-   Maximise work not done.
+-   Self organizing teams deliver quality.
+-   Feedback loops used to improve.
+
+
+Agile Alternatives
+-   Waterfall Methodology
+-   Rapid Developement
+-   Lean, etc
+
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::: SCRUM ::::::::::::::::::::::::::::::::::::::::::::::::::::::::  
+
+Helps teams structure and manage their work through a set of rules.
+
+Rules  
+-   Every sprint is 4 weeks or less in duration
+-   There are no brakes in sprint.
+-   Intention of Every sprint is "Potentially shippable" Software.
+-   Every sprint includes sprint reviews for stakeholder reviews on the Product.    
+
+Roles
+-   Product Owner.
+-   Scrum master.
+-   Developement team members.
+
+Sprint = A Sprint is a Short, time-boxed period when a scrum team works to complete a set of amount of work.
+Sprint duration should be less than 4 weeks.
+
+
+Scrum 
+Origin = Software development
+Idealogy = Learn through experiences, self-organize and prioritize, and reflect on wins and losses to continuously improve.
+Cadence = Regular, fixed-length sprints (i.e. two weeks)
+Practices = Sprint planning, sprint, daily scrum, sprint review, sprint retrospective
+Roles = Product owner, scrum master, development team
+
+Kanban
+Origin = Lean manufacturing
+Idealogy = Use visuals to improve work-in-progress
+Cadence = Continuous flow
+Practice = Visualize the flow of work, limit work-in-progress, manage flow, incorporate feedback loops
+Roles =  No required roles
+
+
+Neither Scrum nor Kanban is inherently more useful; the most effective choice depends on your project's needs, such as whether you prioritize rapid iterations and structured roles (Scrum) or continuous flow and flexibility for ongoing or unpredictable tasks (Kanban). Scrum is better for projects with fixed delivery cycles and changing requirements, while Kanban excels in environments with continuous work, like maintenance or support, and requires less formal structure. Both are Agile frameworks, and they can even be combined into a hybrid model called Scrumban. 
+
+
+Choose Scrum when you need:
+Structured Sprints and Iterations:
+Deliver work in short, fixed-length cycles called sprints. 
+Defined Roles and Ceremonies:
+Benefit from a structured framework with specific roles (e.g., Scrum Master, Product Owner) and regular meetings. 
+Rapid Product Development:
+Ideal for software or product development with a clear vision for increments of work. 
+Quick Feedback Loops:
+Create learning loops by reviewing progress and gathering feedback after each sprint. 
+
+
+Choose Kanban when you need:
+Continuous Flow and Flexibility:
+Manage a continuous stream of tasks with less emphasis on fixed timeframes. 
+Work-in-Progress (WIP) Limits:
+Visualize tasks on a board and limit the amount of work in progress to optimize efficiency. 
+Adaptability for Variable Scope:
+Adapt to changing priorities on the fly, making it suitable for support or ongoing maintenance. 
+Evolutionary Change:
+Introduce small, incremental changes to existing processes without major organizational shifts, according to Mountain Goat Software. 
+
+
+Consider a Hybrid Approach (Scrumban):
+For Larger Products:
+Large organizations can use Scrum for product development teams and Kanban for supporting teams like DevOps or automation. 
+Maximize Benefits:
+Combining elements of both methods can help achieve the benefits of both structured iterations and continuous flow. 
+
+
+
+::::::::::::::::::::::::::::::::::::::::: INTERVIEW QUESTIONS :::::::::::::::::::::::::::::::::::::::::
+[A Story will express a goal or end results]
+[A Task is a responsibility or step in a process]
+
+
+1.	What is JIRA Tool
+----	Jira is a project management tool
+		Track project work status
+	    Track bugs and issues.
+	   	Team work and time tracking and etc.
+
+2.	Key Components of JIRA
+----	Project: Organizes related work and issues together.
+		Issue: Represents a task,bug,story or any work item to be tracked.
+		Workflow: Define the lifecycle of the Issue.(Eg. TO-DO,Inprogress,Done,Testing,Close,etc)
+		Board: Provides visual represntation of work items, such as scrum or kanban
+		
+3.	Types of Issues in JIRA
+----	Task, Bug, Story, Epic, Sub-Task, Custom Type Issue
+
+4.	What is Sprint
+----	A Short-term and time boxed goal for team where team decieds to work that can deliver in specific time.
+		Most of the sprints is between 2 weeks to 4 weeks.
+		
+5.	What is Epic
+----	An epic is a large bosy of work that can be broken down into a number of smaller stories or sometimes called 'Issue' in JIRA. 
+
+6.	What is Stories
+----	Stories are also called 'user stories',are short requirement or requests written from the perspective of end users.
+
+7.	What is Bug
+----	A problem that can cause an issue in prodution that is found by QA or team members and should be fix.
+
+8.	Types of reports and charts in JIRA
+----	Burnup
+		Sprint Burndown
+		Velocity
+		cumulative 
+		cycle time
+		Deployment frequency
+
+9.	Can JIRA connect with GITHub,GITlab,Bitbucket.	-->	YES
+10.	Can we create custom issue type in JIRA. 		-->	YES
+11.	Can we change issue life cycle flow.			-->	YES
+	

@@ -1,0 +1,22 @@
+
+:::::::::::::::::::::::::::: INTRO :::::::::::::::::::::::::::: 
+
+
+
+Hi, I’m Yash Jain. I’m an SDET and QA Automation Engineer with over 4 years of experience in software testing and automation.
+
+Currently, I’m working with VVDN Technologies as a Software Engineer – SDET, where I primarily work on Python-based test automation across UI, API, backend, and database layers.
+
+On the automation side, I have hands-on experience with Python, Pytest, Selenium, Playwright, and Page Object Model, and I’ve worked on building reusable and maintainable automation frameworks. I also have experience in REST API automation using Python Requests and Postman, along with SQL-based database validation using MySQL and PostgreSQL.
+
+In my current role, I’ve also integrated automation suites with Jenkins CI/CD, worked on reducing flaky tests using better synchronization and retry mechanisms, and performed root-cause analysis using application logs, API traces, and database data. I work across functional, regression, integration, and end-to-end testing in Agile environments.
+
+More recently, I’ve also been developing my knowledge in Generative AI and AI-based testing, particularly around LLMs, AI applications, chatbot testing, and automation, because I see AI testing becoming an important part of modern QA.
+
+Overall, I would describe myself as someone who enjoys finding problems, automating repetitive testing, improving test reliability, and working closely with developers to deliver stable and high-quality software.
+
+That’s a brief overview about me.
+
+
+
+    

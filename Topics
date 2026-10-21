@@ -1,0 +1,51 @@
+-----------------------INT 1-----------------------
+
+
+:::pytest:::
+
+pytest fixture
+pytest parameters
+parallel operations
+reports
+--> how to test testcases that doesn't have confirmation if its get pass or fail.
+
+
+:::selenium:::
+webdriver
+find element vs find elements (Exceptions if element is not present)
+waits and its types
+dynamic web elements
+
+
+:::python:::
+list vs tuple vs set vs dictionary
+with operation
+threadings
+OOPS
+
+
+
+types of testing
+UI Testing (Cycle Time, architecture)
+load testing
+Architecture
+Page object model
+Data driven framework
+document object model
+
+
+Knowledge of software testing methods (manual/automation)
+Understanding of SDLC/STLC
+Familiarity with tools like JIRA, Selenium, Postman
+Bug tracking and reporting
+Attention to detail & strong communication
+
+python basics
+selenium
+sdlc
+sdtc
+jira
+pytest
+sql
+git
+

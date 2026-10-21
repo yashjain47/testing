@@ -1,0 +1,456 @@
+python - modules
+OOPS >> Classes, Inheritance, Polymorphism
+Basic Code
+
+Automation>>
+
+UI Testing >> Selenium (API, DB )
+Dropdowns 
+Key events
+Elements >> Timeout , not exist (Dynamic elements)
+Explicit wait , Relative Xpath,CSS selector 
+If I added any new module >> steps of testing 
+
+API testing >>
+Status code (Scenario)
+Requests >> types 
+API >> State >> District
+
+State >> district
+State >> particular 
+Response time
+Error message
+nhi, error 
+@*
+Cross browser
+Authentic User
+
+Database >>
+SQL query
+Joins
+
+Bug management>>
+JIRA, Mantis
+
+SDLC, STLC>>
+SDLC Phases 7:
+Requirements >> Analysis >> Design workflow >> development >> test >> deploy >> maintenance / support
+
+STLC Phases:
+Requirements >> design >> test cases >> test environment >> test(bug >> resolve >> retest ) >> deploy 
+Waterfall , Agile(Scrum) >> flexible 
+
+Gitlab ,Git >>
+
+CI/CD >> 
+
+testing >>
+
+functinal >> unit , integration, regression, system level , acceptance testing, reliability , compatibility (OS, System, devices), recovery
+non functional >> performance, load testing, stress testing 
+
+box - level testing >>
+Black box >> internal code not access
+white box >> code 
+grey box >> both 
+
+Smoke       >> code access nhi h. 
+Sanity      >> code review. 
+regression  >> test to check if all working fine and no other bug/error.
+retest      >> test after fix  
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+
+Types of Software Testing
+
+
+1.	Manual testing
+2.	Automation testing
+
+Manual
+>>	white Box
+>>	Black Box
+>>	Grey Box
+
+Black Box
+>>	Functional  (Unit, Integration, system)
+>>	Non-Functional (Performance, Usability, Compatibility)
+
+
+Integration
+>>	Top-bottom
+>>	Bottom-up
+
+Performance
+>>	Load
+>>	Stress
+>>	Scalability	
+>>	Stability
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+***************************************************************************************************************
+************************************* Software Testing Life Cycle (STLC)  *************************************
+***************************************************************************************************************
+
+The Software Testing Life Cycle (STLC) is a process that verifies whether the Software Quality meets the expectations or not. STLC is an important process that provides a simple approach to testing through the step-by-step process, which we are discussing here. Software Testing Life Cycle (STLC) is a fundamental part of the Software Development Life Cycle (SDLC).
+
+Phases of STLC
+There are six major phases of the Software Testing Life Cycle (STLC) that we are discussing here in detail.
+
+software-testing-life-cycle
+Software Testing Life Cycle (STLC)
+
+1. Requirement Analysis
+Requirement Analysis is the first step of the Software Testing Life Cycle (STLC). In this phase quality assurance team understands the requirements like what is to be tested. If anything is missing or not understandable then the quality assurance team meets with the stakeholders to better understand the detailed knowledge of requirements
+
+The activities that take place during the Requirement Analysis stage include:
+
+Reviewing the software requirements document (SRD) and other related documents
+Interviewing stakeholders to gather additional information
+Identifying any ambiguities or inconsistencies in the requirements
+Identifying any missing or incomplete requirements
+Identifying any potential risks or issues that may impact the testing process
+Creating a requirement traceability matrix (RTM) to map requirements to test cases
+At the end of this stage, the testing team should have a clear understanding of the software requirements and should have identified any potential issues that may impact the testing process. This will help to ensure that the testing process is focused on the most important areas of the software and that the testing team is able to deliver high-quality results.
+
+2. Test Planning
+Test Planning is the most efficient phase of the software testing life cycle where all testing plans are defined. In this phase manager of the testing, team calculates the estimated effort and cost for the testing work. This phase gets started once the requirement-gathering phase is completed.
+
+The activities that take place during the Test Planning stage include:
+
+Identifying the testing objectives and scope
+Developing a test strategy: selecting the testing methods and techniques that will be used
+Identifying the testing environment and resources needed
+Identifying the test cases that will be executed and the test data that will be used
+Estimating the time and cost required for testing
+Identifying the test deliverables and milestones
+Assigning roles and responsibilities to the testing team
+Reviewing and approving the test plan
+At the end of this stage, the testing team should have a detailed plan for the testing activities that will be performed, and a clear understanding of the testing objectives, scope, and deliverables. This will help to ensure that the testing process is well-organized and that the testing team is able to deliver high-quality results.
+
+3. Test Case Development
+The Test Case Development phase gets started once the test planning phase is completed. In this phase testing team notes down the detailed test cases. The testing team also prepares the required test data for the testing. When the test cases are prepared then they are reviewed by the quality assurance team.
+
+The activities that take place during the Test Case Development stage include:
+
+Identifying the test cases that will be developed
+Writing test cases that are clear, concise, and easy to understand
+Creating test data and test scenarios that will be used in the test cases
+Identifying the expected results for each test case
+Reviewing and validating the test cases
+Updating the requirement traceability matrix (RTM) to map requirements to test cases
+
+At the end of this stage, the testing team should have a set of comprehensive and accurate test cases that provide adequate coverage of the software or application. This will help to ensure that the testing process is thorough and that any potential issues are identified and addressed before the software is released.
+
+4. Test Environment Setup
+Test Environment Setup is an important part of the STLC. Basically, the test environment decides the conditions on which software is tested. This is independent activity and can be started along with test case development. In this process, the testing team is not involved. either the developer or the customer creates the testing environment.
+
+5. Test Execution
+In Test Execution, after the test case development and test environment setup test execution phase gets started. In this phase testing team starts executing test cases based on prepared test cases in the earlier step.
+
+The activities that take place during the test execution stage of the Software Testing Life Cycle (STLC) include:
+
+Test execution: The test cases and scripts created in the test design stage are run against the software application to identify any defects or issues.
+Defect logging: Any defects or issues that are found during test execution are logged in a defect tracking system, along with details such as the severity, priority, and description of the issue.
+Test data preparation: Test data is prepared and loaded into the system for test execution
+Test environment setup: The necessary hardware, software, and network configurations are set up for test execution
+Test execution: The test cases and scripts are run, and the results are collected and analyzed.
+Test result analysis: The results of the test execution are analyzed to determine the software's performance and identify any defects or issues.
+Defect retesting: Any defects that are identified during test execution are retested to ensure that they have been fixed correctly.
+Test Reporting: Test results are documented and reported to the relevant stakeholders.
+It is important to note that test execution is an iterative process and may need to be repeated multiple times until all identified defects are fixed and the software is deemed fit for release.
+
+6. Test Closure
+Test Closure is the final stage of the Software Testing Life Cycle (STLC) where all testing-related activities are completed and documented. The main objective of the test closure stage is to ensure that all testing-related activities have been completed and that the software is ready for release.
+
+At the end of the test closure stage, the testing team should have a clear understanding of the software's quality and reliability, and any defects or issues that were identified during testing should have been resolved. The test closure stage also includes documenting the testing process and any lessons learned so that they can be used to improve future testing processes
+
+Test closure is the final stage of the Software Testing Life Cycle (STLC) where all testing-related activities are completed and documented. The main activities that take place during the test closure stage include:
+
+Test summary report: A report is created that summarizes the overall testing process, including the number of test cases executed, the number of defects found, and the overall pass/fail rate.
+Defect tracking: All defects that were identified during testing are tracked and managed until they are resolved.
+Test environment clean-up: The test environment is cleaned up, and all test data and test artifacts are archived.
+Test closure report: A report is created that documents all the testing-related activities that took place, including the testing objectives, scope, schedule, and resources used.
+Knowledge transfer: Knowledge about the software and testing process is shared with the rest of the team and any stakeholders who may need to maintain or support the software in the future.
+Feedback and improvements: Feedback from the testing process is collected and used to improve future testing processes
+It is important to note that test closure is not just about documenting the testing process, but also about ensuring that all relevant information is shared and any lessons learned are captured for future reference. The goal of test closure is to ensure that the software is ready for release and that the testing process has been conducted in an organized and efficient manner.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+***************************************************************************************************************
+*********************************** Software Development Life Cycle (SDLC)  ***********************************
+***************************************************************************************************************
+
+
+Software Development Life Cycle (SDLC) is a structured process that is used to design, develop, and test high-quality software. SDLC, or software development life cycle, is a methodology that defines the entire procedure of software development step-by-step. The goal of the SDLC life cycle model is to deliver high-quality, maintainable software that meets the user's requirements.
+
+SDLC in software engineering models outlines the plan for each stage so that each stage of the software development model can perform its task efficiently to deliver the software at a low cost within a given time frame that meets users requirements. In this article we will see Software Development Life Cycle (SDLC) in detail.
+
+What is the Software Development Life Cycle (SDLC)?
+SDLC is a process followed for software building within a software organization. SDLC consists of a precise plan that describes how to develop, maintain, replace, and enhance specific software. The life cycle defines a method for improving the quality of software and the all-around development process.  
+
+SDLC
+SDLC
+Stages of the Software Development Life Cycle
+SDLC specifies the tasks to be performed at various stages by a software engineer or developer. It ensures that the end product is able to meet the customer's expectations and fits within the overall budget. Hence, it's vital for a software developer to have prior knowledge of this software development process. SDLC is a collection of these six stages, and the stages of SDLC are as follows:
+
+Stages of the Software Development Life Cycle Model SDLC
+Software Development Life Cycle Model SDLC Stages
+The SDLC Model involves six phases or stages while developing any software.
+
+Stage 1: Planning and Requirement Analysis
+Planning is a crucial step in everything, just as in software development. In this same stage, requirement analysis is also performed by the developers of the organization. This is attained from customer inputs, and sales department/market surveys. 
+
+The information from this analysis forms the building blocks of a basic project. The quality of the project is a result of planning. Thus, in this stage, the basic project is designed with all the available information.
+
+Stage 1
+Stage-1 : Planning and Requirement Analysis
+Stage 2: Defining Requirements
+In this stage, all the requirements for the target software are specified. These requirements get approval from customers, market analysts, and stakeholders. 
+This is fulfilled by utilizing SRS (Software Requirement Specification). This is a sort of document that specifies all those things that need to be defined and created during the entire project cycle. 
+
+Stage-2: Defining Requirements
+Stage-2 : Defining Requirements
+Stage 3: Designing Architecture
+SRS is a reference for software designers to come up with the best architecture for the software. Hence, with the requirements defined in SRS, multiple designs for the product architecture are present in the Design Document Specification (DDS). 
+
+This DDS is assessed by market analysts and stakeholders. After evaluating all the possible factors, the most practical and logical design is chosen for development.
+
+Stage-3: Designing Architecture
+Stage 3: Design
+Stage 4: Developing Product
+At this stage, the fundamental development of the product starts. For this, developers use a specific programming code as per the design in the DDS. Hence, it is important for the coders to follow the protocols set by the association. Conventional programming tools like compilers, interpreters, debuggers, etc. are also put into use at this stage. Some popular languages like C/C++, Python, Java, etc. are put into use as per the software regulations. 
+
+Stage-4: Developing Product
+Stage 4: Development
+Stage 5: Product Testing and Integration
+After the development of the product, testing of the software is necessary to ensure its smooth execution. Although, minimal testing is conducted at every stage of SDLC. Therefore, at this stage, all the probable flaws are tracked, fixed, and retested. This ensures that the product confronts the quality requirements of SRS. 
+
+Documentation, Training, and Support: Software documentation is an essential part of the software development life cycle. A well-written document acts as a tool and means to information repository necessary to know about software processes, functions, and maintenance. Documentation also provides information about how to use the product. Training in an attempt to improve the current or future employee performance by increasing an employee's ability to work through learning, usually by changing his attitude and developing his skills and understanding. 
+
+Stage-5: Product Testing and Integration
+Stage 5: Testing
+Stage 6: Deployment and Maintenance of Products
+After detailed testing, the conclusive product is released in phases as per the organization’s strategy. Then it is tested in a real industrial environment. It is important to ensure its smooth performance. If it performs well, the organization sends out the product as a whole. After retrieving beneficial feedback, the company releases it as it is or with auxiliary improvements to make it further helpful for the customers. However, this alone is not enough. Therefore, along with the deployment, the product's supervision. 
+
+Stage-6: Deployment and Maintenance of Products
+Stage 6: Deployment and Maintenance
+Software Development Life Cycle Models
+Software Development Models are structured frameworks that guide the planning, execution, and delivery of software projects. They define the sequence of development stages, such as requirements, design, coding, testing, and deployment.
+
+Common Models
+Waterfall Model
+Agile Model
+V-Model
+Spiral Model
+Incremental Model
+RAD Model
+
+
+What is the need for SDLC?
+SDLC is a method, approach, or process that is followed by a software development organization while developing any software. SDLC models were introduced to follow a disciplined and systematic method while designing software. With the software development life cycle, the process of software design is divided into small parts, which makes the problem more understandable and easier to solve. SDLC comprises a detailed description or step-by-step plan for designing, developing, testing, and maintaining the software.
+
+Follow the project Library Management System or E Portfolio Website to see the use of Software Development Life Cycle in a Software Projects.
+
+How does SDLC Address Security?
+A frequent issue in software development is the delay of security-related tasks until the testing phase, which occurs late in the software development life cycle (SDLC) and occurs after the majority of crucial design and implementation has been finished. During the testing phase, security checks may be minimal and restricted to scanning and penetration testing, which may fail to identify more complicated security flaws.
+
+Security issue can be address in SDLC by following DevOps. Security is integrated throughout the whole SDLC, from build to production, through the use of DevSecOps. Everyone involved in the DevOps value chain have responsibility for security under DevSecOps.
+
+Real Life Example of SDLC
+Developing a banking application using SDLC:
+
+Planning and Analysis: During this stage, business stakeholders' requirements about the functionality and features of banking application will be gathered by program managers and business analysts. Detailed SRS (Software Requirement Specification) documentation will be produced by them. Together with business stakeholders, business analysts will analyze and approve the SRS document.
+Design: Developers will receive SRS documentation. Developers will read over the documentation and comprehend the specifications. Web pages will be designed by designers. High level system architecture will be prepared by developers.
+Development: During this stage, development will code. They will create the web pages and APIs needed to put the feature into practice.
+Testing: Comprehensive functional testing will be carried out. They will guarantee that the banking platform is glitch-free and operating properly.
+Deployment and Maintenance: The code will be made available to customers and deployed. Following this deployment, the customer can access the online banking. The same methodology will be used to create any additional features.
+Conclusion
+In conclusion, we now know that the Software Development Life Cycle (SDLC) in software engineering is an important framework for the better and more structured development of optimized software programs. In a world full of rapid evolution in technology, SDLC phases plays a crucial role in enabling some good and innovative solutions for helping users and organizations. Also, it's better to adapt SDLC principles to achieve software development goals effectively.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+What is Software Modeling?
+Software modeling is the process of creating abstract representations of a software system. These models serve as blueprints that guide developers, designers, and stakeholders through the system’s structure, behavior, and functionality.
+
+By using diagrams and various modeling languages, software modeling helps in visualizing and understanding the complex aspects of the software, making it easier to plan, develop, and manage the system.
+
+Top 8 Software Development Models
+Choosing the right model is very important for the Development of a Software Product or application. Development and testing processes are carried out based on the model.
+
+Different companies, depending on the software application or product, choose the type of development model whichever is appropriate for their application. But these days 'Agile Methodology' is the most popular in the market.
+
+Let's look at the every model in brief one by one:-
+
+1. Agile Model
+Agile Development Model is a combination of iterative and incremental models, that is, it is made up of iterative and incremental models.
+
+In Agile model, focus is given to process adaptability and customer satisfaction.
+In earlier times, iterative waterfall model was used to create software. But in today's time developers have to face many problems. The biggest problem is that in the middle of software development, the customer asks to make changes in the software. It takes a lot of time and money to make these changes. So to overcome all these shortcomings, the agile model was proposed in the 1990s.
+The Agile Model was created mainly to make changes in the middle of software development so that the software project can be completed quickly.
+
+agile-model
+Agile Model
+In the agile model, the software product is divided into small incremental parts. In this, the smallest part is developed first and then the larger one.
+And each incremental part is developed over iteration.
+Each iteration is kept small so that it can be easily managed. And it can be completed in two-three weeks. Only one iteration is planned, developed and deployed at a time.
+
+
+2. Waterfall Model
+Waterfall Model is a famous and good version of SDLC(System Development Life Cycle) for software engineering. The waterfall model is a linear and sequential model, which means that a development phase cannot begin until the previous phase is completed. We cannot overlap phases in waterfall model.
+
+Phases of Waterfall model
+waterfall-phases
+Waterfall Model
+Similarly waterfall model also works, once one phase of development is completed then we move to the next phase but cannot go back to the previous phase. In the waterfall model, the output of one phase serves as the input for the other phase.
+
+3. V-Model
+V-Model is an SDLC model, it is also called Verification and Validation Model. V-Model is widely used in the Software Development Process, and it is considered a disciplined model. In V-Model, the execution of each process is sequential, that is, the new phase starts only after the previous phase ends.
+
+Phases of V-model
+Phases of V-model
+V-Model
+It is based on the association of testing phase with each development phase that is in V-Model with each development phase, its testing phase is also associated in a V-shape in other words both Software Development and testing activities take place at the same time.
+So in this model, Verification Phase will be on one side, Validation Phase will be on the other side that is both the activities run simultaneously and both of them are connected to each other in V-Shape through Coding Phase, hence it is called V-Model.
+V-Design: In V-Design the left side represents the development activity, the right side represents the testing activity.
+
+
+4. Incremental Model
+In Incremental Model, the Software Development Process is divided into several increments and the same phases are followed in each increment. In simple language, under this model a complex project is developed in many modules or builds.
+
+incremental- model
+Incremental Model
+For example, we collect the customer's requirements, now instead of making the entire software at once, we first take some requirements and based on them create a module or function of the software and deliver it to the customer. Then we take some more requirements and based on them add another module to that software.
+Similarly, modules are added to the software in each increment until the complete system is created. However, the requirements for making a complex project in multiple iterations/parts should be clear.
+If we understand the entire principle of Incremental methodology, then it starts by developing an initial implementation, then user feedback is taken on it, and it is developed through several versions until an accepted system is developed. Important functionalities of the software are developed in the initial iterations.
+Each subsequent release of a software module adds functions to the previous release. This process continues until the final software is obtained.
+
+5. RAD Model
+RAD Model stands for rapid application development model. The methodology of RAD model is similar to that of incremental or waterfall model. It is used for small projects.
+
+The main objective of RAD model is to reuse code, components, tools, processes in project development.
+
+rad-model
+RAD Model
+If the project is large then it is divided into many small projects and these small projects are planned one by one and completed. In this way, by completing small projects, the large project gets ready quickly.
+In RAD model, the project is completed within the given time and all the requirements are collected before starting the project. It is very fast and there are very less errors in it.
+
+
+6. Iterative Model
+In Iterative Model we start developing the software with some requirements and when it is developed, it is reviewed. If there are requirements for changes in it, then we develop a new version of the software based on those requirements. This process repeats itself many times until we get our final product.
+
+Through this diagram you can understand the Interactive model.
+
+interative-model
+Iterative Model
+So, in Iterative model a software is developed by following several iterations. Iteration means that we are repeating the Development Process again and again. For example, we develop the first version of the software following the SDLC process with some software requirements.
+After the first version is developed, if there is a need to change the software , then a new version is developed with the second iteration. Now again we will see if the new version is enough, if not then we will make changes in it with the third iteration. The iteration will be repeated until the complete software is ready.
+The basic concept of Iterative model is that the software should be developed through repeated cycles or what we also call iteration and only a small part of it should be developed at a time. This model was developed to overcome the drawbacks of the classical waterfall model.
+
+
+7. Spiral Model
+Spiral Model is a software development process model. This model has characteristics of both iterative and waterfall models. This model is used in projects which are large and complex. This model was named spiral because if we look at its figure, it looks like a spiral, in which a long curved line starts from the center point and makes many loops around it. The number of loops in the spiral is not decided in advance but it depends on the size of the project and the changing requirements of the user. We also call each loop of the spiral a phase of the software development process.
+
+spiral-model
+Spiral Model
+In Spiral Model the entire process of software development is described in four phases which are repeated until the project is completed.
+
+A software project goes through these loops again and again in iterations. After each iteration a more and more complete version of the software is developed. The most special thing about this model is that risks are identified in each phase and they are resolved through prototyping. This feature is also called Risk Handling.
+
+Since it also includes the approaches of other SDLC models, it is also called Meta Model. It was first developed by Barry Boehm in 1986.
+
+
+8. Prototype model
+Prototype Model is an activity in which prototypes of software applications are created. First a prototype is created and then the final product is manufactured based on that prototype.
+
+One problem in this model is that if the end users are not satisfied with the prototype model, then a new prototype model is created again, due to which this model consumes a lot of money and time.
+
+prototype-model
+Prototype Model
+The prototype model was developed to overcome the shortcomings of the waterfall model.
+This model is created when we do not know the requirements well.
+The specialty of this model is that this model can be used with other models as well as alone.
+Why companies are shifting toward agile Software Development models?
+In earlier times, iterative waterfall model was used to create software. But in today's time developers have to face many problems. The biggest problem is that in the middle of software development, the customer asks to make changes in the software. It takes a lot of time and money to make these changes. The agile model was created mainly to make changes in the middle of Software Development so that the software project can be completed quickly.
+
+Agile focuses on customer-centric approach that constantly take feedback from customer and make changes in the middle of software developer according to their needs and expectation. Agile Methodologies like scrum adopt iterative and incremental approach this accelerate the time-to-market for new features and product.
+
+Conclusion
+Choosing the right software development model is important for the Success of a Project. Each model offers unique advantages and is suitable for Different Types of Projects. Agile Methodologies, due to their flexibility and customer-centric approach, are increasingly popular in the industry. By adopting Agile, companies can accelerate time-to-market and better adapt to changing requirements, leading to higher customer satisfaction and Successful Project Outcomes.
+
+
+
+
+
+
+
