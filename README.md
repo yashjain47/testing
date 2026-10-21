@@ -1,2 +1,2 @@
 # testing
-This Repo is primarily focused on testing and its scenarios.
+Web scraping using Python and BeautifulSoup
