@@ -1,0 +1,59 @@
+---------------------------Shell Scripting---------------------------
+
+
+Linux OS (Linux torwald written in c)
+
+A   --> Application
+S   --> Shell (can write scripts, automate task)
+K   --> Kernel (Hardware)
+
+Steve Bourne create shell(sh)
+file location   --> /bin/sh
+
+Bourne again Shell (improvement in shell)
+"Bash" 
+file location   --> /bin/bash
+
+after that came......    csh, ksh, fish (not required)
+most popular nowdays (BASH)
+
+
+Text Editor --> Vim,namo,gedit
+
+
+#!/bin/bash --> shabang 
+# is comment here
+it is an indicator that this script is bash file. 
+
+
+
+Shell Commands:
+
+echo    --> print
+mkdir   --> create folder
+ls      --> list the files, folder, everything
+ls-ltr or ls-l  --> list all files and show properties.
+
+
+Execute a bashfile with system arguments:
+
+bash try.sh yash 23 manesar
+
+here,   try.sh is 0th argument
+        yash is 1th argument
+        23 is 2nd argument
+        manesar is 3rd argument 
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Conditions:
+
+if [condition]
+then 
+    ..................
+else
+    ..................
+fi
+
+
+
